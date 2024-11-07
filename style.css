@@ -1,83 +1,90 @@
-.section{
-    margin-top: 20px;
-    margin-bottom: 20px;
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --background-accent-color: #2f303a;
+  --background-color: #fff;
+  --background-team-color: #f5f4fa;
+  --second-accent-color: #fff;
+  --frame-color: #eee;
+  --logo-accent-color: #000;
+  --background-button-color: #f5f4fa;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --header-frame-color: #ececec;
 }
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-h1,h2,h3,h4,p,img,ul,li{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+p,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
-
-.flex-item{
+.hero {
+  padding: 200px 0;
+  background-image: url(./img/ііі.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  /*outline: solid red;*/
+  margin: 0 auto;
+}
+.header-accent {
+  color: #000;
+}
+.header-logo {
+  color: aqua;
+}
+.nav-father {
+  display: flex;
+  gap: 90px;
+  padding-left: 90px;
+}
+.header-logo {
+  padding-left: ;
+}
+.header-logo {
+  display: flex;
+}
+.plan {
+  display: flex;
+  padding-left: 70px;
+}
+.info-header {
+  display: flex;
+  padding-left: 120px;
+}
+.number-1 {
+  padding-left: 120px;
+}
+.about-us {
+  display: flex;
+}
+.about-list {
+  display: flex;
+  gap: 30px;
+}
+.footer-logo {
+  margin-top: 10px;
+}
+.about-title {
+  margin-top: 3px;
+}
+.about-team{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
-    background-color: brown;
-}
-
-.holder {
-    display: grid;
-    grid-template-areas: 
-        "one five"
-        "three two four";
-    grid-gap: 10px;
-    width: 300px;
-    height: 200px;
-}
-
-.item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: white;
-    font-weight: bold;
-}
-
-.item1 { background-color: orange; grid-area: one; }
-.item2 { background-color: blue; grid-area: two; }
-.item3 { background-color: purple; grid-area: three; }
-.item4 { background-color: green; grid-area: four; }
-.item5 { background-color: yellow; grid-area: five; }
-
-.bg-box{
-    width: 600px;
-    height: 400px;
-    background-image: url(​https://www.freeiconspng.com/uploads/lamp-png-0.png), url(https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg),   url(https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png)    ;  
-background-position: top center,center center;
-background-repeat:repeat-x ,no-repeat;
-background-size: contain, cover;
-border: 10px green;
-}
-.Web{
-    color: rgb(99, 199, 232);
-}
-.Studio{
-    color: black;
-}
-.hero{
-    background-color: blueviolet;
-background-image: url(./img/ііі.jpg);
-background-position: center;
-background-repeat: no-repeat;
-}
-.btn2{
-    margin-top: 300px;
-    margin-bottom: 270px;
-height: 30px;
-width: 120px;
-display: block;
-margin: auto;
-}
-.container2{
-    
 }
