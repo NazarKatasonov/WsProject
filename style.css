@@ -85,6 +85,7 @@ li {
 .about-title {
   margin-top: 100px;
   margin-left: 450px;
+  margin-bottom: 50px;
 }
 .about-team {
   display: flex;
@@ -122,6 +123,7 @@ li {
 .our-team {
   margin-left: 450px;
   margin-top: 150px;
+  margin-bottom: 40px;
 }
 .advantages-list {
   display: flex;
