@@ -44,31 +44,31 @@ li {
   /*outline: solid red;*/
   margin: 0 auto;
 }
-.header-accent {
-  color: #000;
-}
-.header-logo {
-  color: aqua;
-}
+
 .nav-father {
   display: flex;
   gap: 90px;
   padding-left: 90px;
 }
 .header-logo {
-  padding-left: ;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
-.header-logo {
+.header-logo > span {
+  color: var(--logo-accent-color);
+}
+.header-wrap {
   display: flex;
 }
-.plan {
-  display: flex;
-  padding-left: 70px;
-}
+
 .info-header {
   display: flex;
-  padding-left: 120px;
 }
+
 .number-1 {
   padding-left: 120px;
 }
@@ -83,8 +83,98 @@ li {
   margin-top: 10px;
 }
 .about-title {
-  margin-top: 3px;
+  margin-top: 100px;
+  margin-left: 450px;
 }
-.about-team{
-    display: flex;
+.about-team {
+  display: flex;
+}
+.btn {
+  background-color: dodgerblue;
+  margin-top: 30px;
+  color: #eee;
+}
+.pic-text {
+  color: #eee;
+  margin-left: 350px;
+}
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--logo-accent-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.vidstyp {
+  padding-left: 100px;
+}
+.btn {
+  margin-left: 500px;
+}
+.footer {
+  background-color: #2f303a;
+}
+.our-team {
+  margin-left: 450px;
+  margin-top: 150px;
+}
+.advantages-list {
+  display: flex;
+  gap: 30px;
+}
+.team {
+  gap: 50px;
+}
+.about-team {
+  gap: 25px;
+}
+.info-footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.number-footer {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.address {
+  color: var(--second-accent-color);
+}
+.Studio2 {
+  color: var(--second-accent-color);
+}
+.team-photos {
+  box-shadow: 0px 2px 1px 0px #00000033;
+
+  box-shadow: 0px 1px 1px 0px #00000024;
+
+  box-shadow: 0px 1px 3px 0px #0000001f;
+}
+.clients-father {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.clients-text {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
+  color: var(--logo-accent-color);
+  margin-top: 200px;
+  margin-left: 450px;
+  margin-bottom: 100px;
 }
