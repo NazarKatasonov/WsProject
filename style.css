@@ -47,8 +47,9 @@ li {
 
 .nav-father {
   display: flex;
-  gap: 90px;
-  padding-left: 90px;
+  gap: 60px;
+  margin-left: 60px;
+  margin-bottom: 10px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -67,6 +68,7 @@ li {
 
 .info-header {
   display: flex;
+  margin-left: 190px;
 }
 
 .number-1 {
@@ -84,8 +86,13 @@ li {
 }
 .about-title {
   margin-top: 100px;
-  margin-left: 450px;
+  margin-left: 400px;
   margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .about-team {
   display: flex;
@@ -124,6 +131,11 @@ li {
   margin-left: 450px;
   margin-top: 150px;
   margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
 }
 .advantages-list {
   display: flex;
@@ -179,4 +191,10 @@ li {
   margin-top: 200px;
   margin-left: 450px;
   margin-bottom: 100px;
+}
+.clients-son:hover {
+  color: #2196f3;
+}
+.Studio2 {
+  color: white;
 }
