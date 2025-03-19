@@ -126,6 +126,7 @@ li {
 }
 .footer {
   background-color: #2f303a;
+  display: flex;
 }
 .our-team {
   margin-left: 450px;
@@ -219,6 +220,19 @@ li {
   background-color: blue;
   display: block;
 }
-.clients-son{
+.clients-son {
   margin-left: 40px;
+}
+.nav-social {
+  display: flex;
+  gap: 15px;
+}
+.socials-text {
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
